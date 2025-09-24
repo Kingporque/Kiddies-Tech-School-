@@ -1,0 +1,20 @@
+
+--variables {
+  --primary-color: powderblue;
+  --secondary-color: #ff9800;
+  --font-family: 'Arial, sans-serif';
+}
+
+*{content: "";
+  box-sizing: border-box;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: powderblue;
+  color: white;
+}
