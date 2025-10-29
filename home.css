@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --max-color: powderblue;
   --text-color: black;
@@ -8,10 +9,21 @@
 * {
   margin: 0;
   padding: 0;
+=======
+
+--variables {
+  --primary-color: powderblue;
+  --secondary-color: #ff9800;
+  --font-family: 'Arial, sans-serif';
+}
+
+*{content: "";
+>>>>>>> 0dbc0d8380355a088044799cc1527813b9a70fd5
   box-sizing: border-box;
 
 }
 
+<<<<<<< HEAD
 body {
   background-color: rgb(247, 244, 244);
 }
@@ -576,4 +588,13 @@ h2 {
     width: 100%;
     max-width: 300px;
   }
+=======
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: powderblue;
+  color: white;
+>>>>>>> 0dbc0d8380355a088044799cc1527813b9a70fd5
 }
