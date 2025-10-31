@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
 =======
-
+}
 --variables {
   --primary-color: powderblue;
   --secondary-color: #ff9800;
@@ -29,40 +29,55 @@ body {
 }
 
 
+/* Navbar Styles */
 .navbar {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  width: 100%;
-  padding: 1.2rem;
-  background-color: powderblue;
-  color: white;
-  position: fixed;
-  z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 1.2rem;
+    background-color: powderblue;
+    color: white;
+    position: fixed;
+    z-index: 1000;
 }
 
-a {
-  margin: 1.5em;
-  text-decoration: none;
-  color: #000000;
+.navbar img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: auto;
 }
 
-li {
-  list-style: none;
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
 }
 
-.navbar li a:hover {
-  background-color: coral;
-  padding: 0.35rem;
-  transform: scaleX(10px);
-  transition: all 500ms ease;
-
+.nav-links {
+    display: flex;
+    align-items: center;
 }
 
-.navbar li act {
-  background-color: coral;
-  padding: 0.35rem;
+.nav-links li {
+    list-style: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.nav-links a {
+    margin: 1.5em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-links li a:hover {
+    background-color: #dd6a40;
+    padding: 0.35rem;
+    transition: all 100ms ease;
+}
+
 
 .carousel {
   width: 100%;
